@@ -15,14 +15,7 @@ const Asking = ({ gif, altText, handleAccept, handleReject, noButtonText }) => (
     {/* Displaying the chosen gif with alt text */}
     <img className="App-gif" src={gif} alt={altText} />
     {/* Asking the special question with personalized name */}
-    <p className="App-text">Safa, Every year with you feels like compound interest —
-it just keeps getting better.
-
-So today I’m asking you again…
-
-Will you keep choosing me,
-like I choose you,
-every single day? Will you be my Valentine?</p>
+    <p className="App-text">Safa, YOU HATE ME </p>
     <div>
       {/* Button for accepting the proposal */}
       <button className="App-button" onClick={handleAccept}>
