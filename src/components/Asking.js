@@ -29,9 +29,15 @@ every single day? Will you be my Valentine?</p>
         Yes
       </button>
       {/* Button for rejecting the proposal with dynamic text */}
-      <button className="App-button" onClick={handleReject}>
-        {noButtonText}
-      </button>
+      <button 
+  onMouseEnter={(e) => {
+    e.target.style.position = "absolute";
+    e.target.style.top = Math.random() * 400 + "px";
+    e.target.style.left = Math.random() * 400 + "px";
+  }}
+>
+  No
+</button>
     </div>
   </>
 );
